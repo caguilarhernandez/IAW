@@ -16,7 +16,7 @@
 1. Solo tienes que poner un numero seguido de un punto.
 1. Sin importar el numero que pongas antes del punto.
 
-[Enlace a tutorial de Markdown diferente](https://https://tutorialmarkdown.com)
+[Enlace a tutorial de Markdown diferente](https://https://google.com)
 
 [Enlace a otro fichero Markdown](/unidad1/Markdown.txt)
 
