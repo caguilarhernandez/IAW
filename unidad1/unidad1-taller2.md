@@ -18,9 +18,9 @@
 
 [Enlace a tutorial de Markdown diferente](https://https://lumigv.github.io/iaw_202324/unidad1/markdown.html)
 
-[Enlace a otro fichero Markdown](/Markdown.txt)
+[Enlace a otro fichero Markdown](/unidad1/Markdown.txt)
 
-![Enlace a una imagen Markdown](/Markdown.png)
+![Enlace a una imagen Markdown](/unidad1/imh/Markdown.png)
 
 |Formato del texto|Agrupacion del texto|Enlaces|
 |:---:|:---:|:---:|
