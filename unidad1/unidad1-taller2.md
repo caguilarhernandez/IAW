@@ -18,7 +18,7 @@
 
 [Enlace a tutorial de Markdown diferente](https://tutorialmarkdown.com)
 
-[Enlace a otro fichero Markdown](/unidad1/Markdown.txt)
+[Enlace a otro fichero Markdown](/Markdown.txt)
 
 ![Enlace a una imagen Markdown](/Markdown.png)
 
