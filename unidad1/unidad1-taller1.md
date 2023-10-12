@@ -2,18 +2,18 @@
 
   Creo el repositorio.
 
-![Primer apartado](1.png)
+![Primer apartado](/unidad1/img/1.png)
 
   Contenido del fichero .git/config
 
-![Segundo apartado](2.png)
+![Segundo apartado](/unidad1/img/2.png)
 
   Comando git log.
 
-![Tercer apartado](3.png)
+![Tercer apartado](/unidad1/img/3.png)
 
   Creo primero el repositorio local y luego pongo este comando.
 
-![Cuarto apartado](4.png)
+![Cuarto apartado](/unidad1/img/4.png)
 
   Ya la habia hechoy se me olvido hacerle captura asique repeti el comando.
