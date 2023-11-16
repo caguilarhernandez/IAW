@@ -12,6 +12,6 @@
 
 [taller4](/unidad1/unidad1-taller4.md)
 
-## Unidad 2
+### Unidad 2
 
 [jekyll_github_pages](/unidad2/jekyll_github_pages.md)
