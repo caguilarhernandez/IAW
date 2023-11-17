@@ -37,20 +37,19 @@ Esto sera un ejemplo de como ejecuto los **pasos** necesarios para desplegar el 
 ## Paso 3:
 
 
-
-![Paso 3](/unidad2/jekyll5.png)
+![Paso 3](/unidad2/jekyll13.png)
 
 ## Paso 4:
 
 
 
-![Paso 4](/unidad2/jekyll6.png)
+![Paso 4](/unidad2/jekyll12.png)
 
 ## Paso 5:
 
+
+
 ![Paso 5](/unidad2/jekyll7.png)
-
-
 
 ## Paso 6:
 
