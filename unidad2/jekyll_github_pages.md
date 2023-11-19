@@ -48,7 +48,7 @@ jekyll serve --host 10.0.16.201 --port 3000
 
 ## Paso 3:
 
-Despues conectaremos el repositorio remoto al visual studio code y editaremos el **_config.yml** 
+Despues conectaremos el repositorio remoto al visual studio code a traves de *ssh* y editaremos el **_config.yml** 
 
 ![Paso 3](/unidad2/jekyll12.png)
 
