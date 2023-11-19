@@ -15,3 +15,9 @@
 ### Unidad 2
 
 [jekyll_github_pages](/unidad2/jekyll_github_pages.md)
+
+[URL del Blog basado en Jekyll en GitHub Pages con el tema "minima"](https://caguilarhernandez.github.io/myblog2/)
+
+[URL del blog basado en jekyll en GitHub Pages con el tema "Lagrange"](https://caguilarhernandez.github.io/Lagrange/)
+
+[URL del blog basado en jekyll en Netlify con el tema "Jekyll Klisé"](https://loquacious-panda-e2c8f6.netlify.app/)
