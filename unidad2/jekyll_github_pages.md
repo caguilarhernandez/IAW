@@ -35,7 +35,7 @@
 jekyll new myblog2
 ```
 
-![Paso 1](/unidad2/jekyll3.png)
+![Paso 1](/jekyll3.png)
 
 ## Paso 2:
 
@@ -45,13 +45,13 @@ jekyll new myblog2
 jekyll serve --host 10.0.16.201 --port 3000
 ```
 
-![Paso 2](/unidad2/jekyll13.png)
+![Paso 2](/jekyll13.png)
 
 ## Paso 3:
 
   Despues conectaremos el repositorio remoto al visual studio code a traves de *ssh* y editaremos el **_config.yml** 
 
-![Paso 3](/unidad2/jekyll12.png)
+![Paso 3](/jekyll12.png)
 
 ## Paso 4:
 
@@ -59,15 +59,15 @@ jekyll serve --host 10.0.16.201 --port 3000
 + **about.markdown**
 + **index.html**
 
-![Paso 4.1](/unidad2/jekyll7.png)
+![Paso 4.1](/jekyll7.png)
 
-![Paso 4.2](/unidad2/jekyll8.png)
+![Paso 4.2](/jekyll8.png)
 
 ## Paso 5:
 
   Despues crearemos una nueva '*page*' llamada **informacion** en forma de fichero markdown igual que el **about** y el **index**.
 
-![Paso 5](/unidad2/jekyll9.png)
+![Paso 5](/jekyll9.png)
 
 ## Paso 6:
 
@@ -76,10 +76,10 @@ jekyll serve --host 10.0.16.201 --port 3000
 + **2023-11-14-credenciales.markdown**.
 + **2023-11-14-bienvenidos.markdown**.
 
-![Paso 6](/unidad2/jekyll10.png)
+![Paso 6](/jekyll10.png)
 
 ## Paso 7:
 
   Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos los cambios han sido realizados.
 
-![Paso 7](/unidad2/jekyll11.png)
+![Paso 7](/jekyll11.png)
