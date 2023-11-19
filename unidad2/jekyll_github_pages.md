@@ -79,6 +79,6 @@ Tambien creo los 3 posts dentro de la carpeta *_posts*:
 
 ## Paso 7:
 
-Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos loa cambios han sido realizados.
+Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos los cambios han sido realizados.
 
 ![Paso 7](/unidad2/jekyll11.png)
