@@ -20,7 +20,7 @@
 
 [Enlace a otro fichero Markdown](/Markdown.txt)
 
-![Enlace a una imagen Markdown](/Markdown.png)
+![Enlace a una imagen Markdown](/img/Markdown.png)
 
 |Formato del texto|Agrupacion del texto|Enlaces|
 |:---:|:---:|:---:|
