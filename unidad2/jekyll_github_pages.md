@@ -20,7 +20,8 @@
 
 ## Introduccion:
 
-Esto sera un ejemplo de como ejecuto los **pasos necesarios** para desplegar el tema de Jekyll "*minima*" en GitHub Pages. En esta practica *ya esta configurado*, tanto la red, como los pasos anteriores a crear el sitio jekyll:
+  Esto sera un ejemplo de como ejecuto los **pasos necesarios** para desplegar el tema de Jekyll "*minima*" en GitHub Pages. En esta practica *ya esta configurado*, tanto la red, como los pasos anteriores a crear el sitio 
+  jekyll:
 
 1. Instalar las gemas.
 1. Crear un nuevo repositorio
@@ -28,8 +29,8 @@ Esto sera un ejemplo de como ejecuto los **pasos necesarios** para desplegar el 
 
 ## Paso 1:
 
-El primer paso es crear el sitio jefyll, para lo que necesitaremos usar el comando:
-
+  El primer paso es crear el sitio jefyll, para lo que necesitaremos usar el comando:  
+    
 ```
 jekyll new myblog2
 ```
@@ -38,8 +39,8 @@ jekyll new myblog2
 
 ## Paso 2:
 
-El siguinete paso sera comprobar que funciona el sitio jekyll, arrancandolo localmente usando el comando:
-
+  El siguinete paso sera comprobar que funciona el sitio jekyll, arrancandolo localmente usando el comando:
+  
 ```
 jekyll serve --host 10.0.16.201 --port 3000
 ```
@@ -48,13 +49,13 @@ jekyll serve --host 10.0.16.201 --port 3000
 
 ## Paso 3:
 
-Despues conectaremos el repositorio remoto al visual studio code a traves de *ssh* y editaremos el **_config.yml** 
+  Despues conectaremos el repositorio remoto al visual studio code a traves de *ssh* y editaremos el **_config.yml** 
 
 ![Paso 3](/unidad2/jekyll12.png)
 
 ## Paso 4:
 
-Luego editaremos los ficheros:
+  Luego editaremos los ficheros:
 + **about.markdown**
 + **index.html**
 
@@ -64,13 +65,13 @@ Luego editaremos los ficheros:
 
 ## Paso 5:
 
-Despues crearemos una nueva '*page*' llamada **informacion** en forma de fichero markdown igual que el **about** y el **index**.
+  Despues crearemos una nueva '*page*' llamada **informacion** en forma de fichero markdown igual que el **about** y el **index**.
 
 ![Paso 5](/unidad2/jekyll9.png)
 
 ## Paso 6:
 
-Tambien creo los 3 posts dentro de la carpeta *_posts*:
+  Tambien creo los 3 posts dentro de la carpeta *_posts*:
 + **2023-11-14-aviso-importante.markdown**.
 + **2023-11-14-credenciales.markdown**.
 + **2023-11-14-bienvenidos.markdown**.
@@ -79,6 +80,6 @@ Tambien creo los 3 posts dentro de la carpeta *_posts*:
 
 ## Paso 7:
 
-Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos los cambios han sido realizados.
+  Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos los cambios han sido realizados.
 
 ![Paso 7](/unidad2/jekyll11.png)
