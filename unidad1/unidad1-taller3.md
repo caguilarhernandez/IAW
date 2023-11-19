@@ -6,7 +6,7 @@
 
   Creo el fichero.txt en la rama primera
 
-![Creo el fichero.txt en la rama primera](/unidad1/img/6.png)
+![Creo el fichero.txt en la rama primera](/img/6.png)
 
   Ejecuto el comando git push para subir los cambios al repositorio remoto.
 
