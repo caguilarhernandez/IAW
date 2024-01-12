@@ -12,35 +12,31 @@
 
 [Paso 5](#paso-5)
 
-[Paso 6](#paso-6)
-
-[Paso 7](#paso-7)
-
 ## Paso 1:
 
-  El primer paso es crear el sitio jefyll, para lo que necesitaremos usar el comando:  
+  El primer paso es **traer la imagen**, que usaremos para crear nuestro sitio en jekyll con el comando:
     
 ```
-jekyll new myblog2
+docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll
 ```
 
-![Paso 1](/imagenes/jekyll3.png)
+![Paso 1](img/dockers1.png)
 
 ## Paso 2:
 
-  El siguinete paso sera comprobar que funciona el sitio jekyll, arrancandolo localmente usando el comando:
+  El siguinete paso sera **montar el fichero donde estara nuestro blog** con es siguiente comando:
   
 ```
-jekyll serve --host 10.0.16.201 --port 3000
+docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll new blog
 ```
 
-![Paso 2](/imagenes/jekyll13.png)
+![Paso 2](img/dockers2.png)
 
 ## Paso 3:
 
-  Despues conectaremos el repositorio remoto al visual studio code a traves de *ssh* y editaremos el **_config.yml** 
+  Despues  
 
-![Paso 3](/imagenes/jekyll12.png)
+![Paso 3](img/dockers4.png)
 
 ## Paso 4:
 
@@ -57,18 +53,3 @@ jekyll serve --host 10.0.16.201 --port 3000
   Despues crearemos una nueva '*page*' llamada **informacion** en forma de fichero markdown igual que el **about** y el **index**.
 
 ![Paso 5](/imagenes/jekyll9.png)
-
-## Paso 6:
-
-  Tambien creo los 3 posts dentro de la carpeta *_posts*:
-+ **2023-11-14-aviso-importante.markdown**.
-+ **2023-11-14-credenciales.markdown**.
-+ **2023-11-14-bienvenidos.markdown**.
-
-![Paso 6](/imagenes/jekyll10.png)
-
-## Paso 7:
-
-  Por ultimo abres el sitio jekyll desde *github pages* y compruebas que todos los cambios han sido realizados.
-
-![Paso 7](/imagenes/jekyll11.png)
