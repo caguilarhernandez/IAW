@@ -12,6 +12,8 @@
 
 [taller4](/unidad1/unidad1-taller4.md)
 
+[Actividad 1.2](/unidad1/jekyll_dockers.md)
+
 ### Unidad 2
 
 [jekyll_github_pages](/unidad2/jekyll_github_pages.md)
