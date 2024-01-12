@@ -14,7 +14,7 @@
 
 ## Paso 1:
 
-  El primer paso es **traer la imagen**, que usaremos para crear nuestro sitio en jekyll con el comando:
+  El primer paso es ***traer la imagen***, que usaremos para crear nuestro sitio en jekyll con el comando:
     
 ```
 docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll
@@ -24,7 +24,7 @@ docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll
 
 ## Paso 2:
 
-  El siguinete paso sera **montar el fichero donde estara nuestro blog** con es siguiente comando:
+  El siguinete paso sera ***montar el fichero donde estara nuestro blog*** con es siguiente comando:
   
 ```
 docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll new blog
@@ -34,22 +34,22 @@ docker run -it --rm -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll new b
 
 ## Paso 3:
 
-  Despues  
+  Despues entraremos en el ***Gemfile***:
 
-![Paso 3](img/dockers4.png)
+![Paso 3](img/dockers7.png)
 
 ## Paso 4:
 
-  Luego editaremos los ficheros:
-+ **about.markdown**
-+ **index.html**
+***Arrancamos el sitio web apuntando al puerto 4000*** tanto con la maquina real como con el docker con el comando:
 
-![Paso 4.1](/imagenes/jekyll7.png)
+```
+docker run -it --rm -p 4000:4000 -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll jekyll serve --force_polling
+```
 
-![Paso 4.2](/imagenes/jekyll8.png)
+![Paso 4](img/dockers5.png)
 
 ## Paso 5:
 
-  Despues crearemos una nueva '*page*' llamada **informacion** en forma de fichero markdown igual que el **about** y el **index**.
+  Voy a mi maquina real a poner la ***ip*** seguido del ***puerto*** para ver mi blog:
 
-![Paso 5](/imagenes/jekyll9.png)
+![Paso 5](img/dockers6.png)
