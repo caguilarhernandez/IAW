@@ -54,4 +54,4 @@ docker run -it --rm -p 4000:4000 -v "$PWD:$HOME/repositorios/blog" jekyll/jekyll
 
 ![Paso 5](img/dockers6.png)
 
-La ip no es una 10.0.16.XX porque lo estoy haciendo desde mi ordenador en casa y tengo otra red.
+***La ip no es una 10.0.16.XX porque lo estoy haciendo desde mi ordenador en casa y tengo otra red.***
